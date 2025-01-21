@@ -7,7 +7,8 @@ A robust real-time expense tracking system built with Apache Kafka, Apache Spark
 The system consists of several interconnected components:
 
 ### Data Flow
-         ![image](https://ibb.co/KrLyCHx)
+       ![image](https://github.com/user-attachments/assets/3daf1e7c-0387-4332-b273-393836488996)
+
 
 
 ### Components
