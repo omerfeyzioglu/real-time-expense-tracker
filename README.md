@@ -7,10 +7,7 @@ A robust real-time expense tracking system built with Apache Kafka, Apache Spark
 The system consists of several interconnected components:
 
 ### Data Flow
-       ![image](https://github.com/user-attachments/assets/3daf1e7c-0387-4332-b273-393836488996)
-
-
-
+     ![img](https://github.com/user-attachments/assets/c389b4c6-815a-4f88-81c1-87f32aff57d8)
 ### Components
 - **Data Generator**: Generates synthetic credit card transaction data every second
 - **Apache Kafka**: Message queue system for data streaming with dedicated topics (v3.9.0)
