@@ -5,16 +5,18 @@ A robust real-time expense tracking system built with Apache Kafka, Apache Spark
 ## 🚀 System Architecture
 
 The system consists of several interconnected components:
-
+     
 ### Data Flow
-     ![img](https://github.com/user-attachments/assets/c389b4c6-815a-4f88-81c1-87f32aff57d8)
+![img](https://github.com/user-attachments/assets/c389b4c6-815a-4f88-81c1-87f32aff57d8)
 ### Components
 - **Data Generator**: Generates synthetic credit card transaction data every second
 - **Apache Kafka**: Message queue system for data streaming with dedicated topics (v3.9.0)
 - **Apache Spark**: Real-time data processing and analytics (v3.5.3)
-- **Apache Cassandra**: NoSQL database for storing transaction data (v4.1.7)
+- **Apache Cassandra**: NoSQL database for storing transaction data (v4.1.7)![img_4](https://github.com/user-attachments/assets/95aa7b61-5da9-4cda-8fd5-ceb68ad00513)
+
 - **Spring Boot**: Web interface for viewing employee data and expenses (v3.2.0)
-- **PostgreSQL**: Stores employee and department information
+- **PostgreSQL**: Stores employee and department information![img_2](https://github.com/user-attachments/assets/179974df-cb66-44f6-8924-f8a7596408e2)
+
 - **HDFS**: Stores employee images (AWS S3 or Google Drive can be used alternatively)
 
 ## 💡 Features
@@ -124,6 +126,12 @@ kafka:
   - Requires `empno`
 - `GET /employee/image`: Retrieve employee image
   - Requires `imageName`
+
+## 📝 Outputs
+### Kafka Consumer 
+ **The datas created from data-generator being consumed by consumers in consumer-sh .**
+![img_3](https://github.com/user-attachments/assets/f96b4f1a-cb32-4367-ad50-a902bea38841)
+
 
 ## 📊 Data Models
 
