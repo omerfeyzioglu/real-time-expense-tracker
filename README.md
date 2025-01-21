@@ -192,7 +192,4 @@ The application includes comprehensive error handling:
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## 🙏 Acknowledgments
 
-- Based on SWE 307 Big Data Project requirements
-- Original project structure from [SWE307-2024](https://github.com/ozmen54/SWE307-2024)
